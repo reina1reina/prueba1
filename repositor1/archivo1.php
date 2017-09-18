@@ -13,11 +13,6 @@
                 title: 'Welcome',
                 content: '<p>Hello! Welcome to Tour.js demo.</p>'
               }, {
-                title: 'Simple Test',
-                content: '<p>This is an important area.</p>',
-                element: '.test-1',
-                position: 'top'
-              }, {
                 content: '<p>This one won\'t run because the element is not visible.</p>',
                 element: '.test-2'
               }, {
