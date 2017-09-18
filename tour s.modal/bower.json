@@ -1,0 +1,14 @@
+{
+  "name": "tourjs",
+  "main": "tour.js",
+  "version": "0.2.0",
+  "description": "Simple guided tour plugin for jQuery.",
+  "keywords": [
+    "tour",
+    "demo"
+  ],
+  "authors": [
+    "Matthew James <matthew@tundra.com.au>"
+  ],
+  "license": "GNU"
+}

@@ -1,0 +1,113 @@
+.tour-overlay {
+  background-color: black;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+  filter: alpha(opacity=50);
+  -moz-opacity: 0.5;
+  -khtml-opacity: 0.5;
+  opacity: 0.5;
+}
+
+.tour-tooltip {
+  padding: 30px;
+  background-color: white;
+  min-width: 320px;
+  max-width: 450px;
+  border-radius: 3px;
+  box-shadow: 0 1px 10px rgba(0, 0, 0, .4);
+  color: $tour-color;
+}
+
+.tour-tooltip-heading {
+  color: black;
+  font-weight: 700;
+}
+
+.tour-tooltip .tour-count {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  color: lightgray;
+  font-size: 15px;
+  line-height: 30px;
+}
+
+.tour-tooltip:after {
+  border: 5px solid white;
+  content: '';
+  position: absolute;
+}
+
+.tour-tooltip.bottom:after {
+  top: -10px;
+  left: 10px;
+  border-top-color: transparent;
+  border-right-color: transparent;
+  border-bottom-color: white;
+  border-left-color: transparent;
+}
+
+.tour-tooltip.bottom.flip-arrow:after {
+  left: auto;
+  right: 10px;
+}
+
+.tour-tooltip.left:after {
+  right: -10px;
+  top: 10px;
+  border-top-color: transparent;
+  border-right-color: transparent;
+  border-bottom-color: transparent;
+  border-left-color: white;
+}
+
+.tour-tooltip.top:after {
+  bottom: -10px;
+  left: 10px;
+  border-top-color: white;
+  border-right-color: transparent;
+  border-bottom-color: transparent;
+  border-left-color: transparent;
+}
+
+.tour-tooltip.top.flip-arrow:after {
+  left: auto;
+  right: 10px;
+}
+
+.tour-tooltip.right:after {
+  left: -10px;
+  top: 10px;
+  border-top-color: transparent;
+  border-right-color: white;
+  border-bottom-color: transparent;
+  border-left-color: transparent;
+}
+
+.tour-button-close {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 0;
+  text-align: center;
+  font-size: 20px;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  font-weight: 700;
+  text-decoration: none;
+  color: black;
+}
+
+.tour-tooltip-buttons {
+  text-align: left;
+  margin-top: 15px;
+}
+
+.tour-button-done {
+  display: none;
+  float: right;
+}
+
+.tour-button-next {
+  float: right;
+}
